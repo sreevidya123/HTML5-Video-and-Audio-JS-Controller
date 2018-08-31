@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <audio controls>
+      <source src="song.mp3" type="audio/mpeg">
+      </audio>
+             <button type="button" name="button">paly</button>
+             <button type="button" name="button">pause</button>
+    <video controls height="600px" width="300px" onclick="vidya()" id="sree">
+               <source src="video.mp4"  type="video/mp4">
+     </video>
+        <button type="button" onclick="play()"  name="button"> play </button>
+        <button type="button" onclick="pause()"  name="button"> pause </button>
+   </body>
+             <script type="text/javascript">
+             function vidya() {
+                         var v=document.getElementById("sree");
+                          v.play();
+                           }
+             function play() {
+                 var v=document.getElementById("sree");
+                           v.play();
+                            }
+             function pause() {
+               var v=document.getElementById("sree");
+                v.pause();
+              }
+
+             </script>
+
+</html>
